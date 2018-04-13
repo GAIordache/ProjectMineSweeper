@@ -1,10 +1,17 @@
 package curs.minesweeper;
 
+import curs.minesweeper.controller.Game;
+
+
 public class Main {
 
 	public static void main(String[] args) {
-		// second commit
-
+		Game newGame = new Game();
+		newGame.start();
+		
+		System.out.println("nuu");
+		
+		
 	}
 
 }
